@@ -1,4 +1,4 @@
-# AI-Powered-Sign-Language-Translator
+# AI-Powered Sign Language Translator
 
 This project aims to create an AI-powered sign language translator that integrates real-time hand gesture detection and gesture-to-text conversion. The application consists of a backend service that processes video input to recognize gestures and a frontend interface that displays the recognized gestures in real-time. Additionally, a web extension is included to provide live captions during video calls.
 

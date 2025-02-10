@@ -1,0 +1,23 @@
+{
+  "name": "ai-powered-sign-language-translator",
+  "version": "1.0.0",
+  "description": "A real-time sign language translator with gesture detection and web integration.",
+  "main": "src/App.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "homepage": ".",
+  "license": "MIT"
+}

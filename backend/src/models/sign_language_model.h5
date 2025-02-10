@@ -1,0 +1,5 @@
+The file /AI-Powered-Sign-Language-Translator/AI-Powered-Sign-Language-Translator/backend/src/models/sign_language_model.h5 is a binary file that contains the trained LSTM model for sign language recognition. As such, it cannot be represented as text content. 
+
+You would typically generate this file by training your model using a script (like the one in your earlier code snippet) and saving it using TensorFlow/Keras. 
+
+If you need assistance with generating the model or any other part of the project, please let me know!

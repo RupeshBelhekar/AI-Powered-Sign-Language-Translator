@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "AI-Powered Sign Language Translator",
+  "version": "1.0",
+  "description": "A Chrome extension that translates sign language gestures into text in real-time.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["src/popup/popup.html", "src/popup/popup.js", "src/popup/popup.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
